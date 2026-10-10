@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.koala/
+credentials.json
+client-tracking/
+*.log
+.DS_Store

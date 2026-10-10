@@ -1,0 +1,16 @@
+{
+  "name": "koala-local-client",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "koala-client": "koala.mjs"
+  },
+  "scripts": {
+    "start": "node koala.mjs",
+    "test": "node --test tests/*.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
